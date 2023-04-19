@@ -10,6 +10,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
     [1] = "จะรีบรับให้ไว",
     [2] = "All"
 }
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
  wait(3)
   local args = {
     [1] = "ระยะทางใกล้ไกล",
@@ -23,6 +24,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
     [2] = "All"
 }
  wait(3)
+ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
   local args = {
     [1] = "ผมก็คงไม่ตายแค่เธอหายไปไม่กี่วัน",
     [2] = "All"
@@ -35,6 +37,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
     [2] = "All"
 }
  wait(3)
+ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
   local args = {
     [1] = "รู้ว่าบางเรื่องก็ไม่มีสิทธิ์ทำ",
     [2] = "All"
@@ -46,3 +49,4 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
     [1] = "ไม่สนใครกีดกันสัญญาจะไม่ปิดบัง",
     [2] = "All"
 }
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
